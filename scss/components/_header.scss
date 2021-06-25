@@ -1,0 +1,37 @@
+/* Header */
+header {
+  width: 100%;
+  .bg-background {
+    background-color: nth($colores, 3);
+    font-family: "Roboto", sans-serif;
+    .logo-it {
+      width: 20rem;
+    }
+    #navbarNavDropdown {
+      .navbar-nav {
+        .dropdown-menu {
+          background-color: nth($colores, 3);
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 330px) {
+  header {
+    width: 100%;
+    .bg-background {
+      background-color: nth($colores, 3);
+      font-family: "Roboto", sans-serif;
+      .logo-it {
+        width: 10rem;
+      }
+      #navbarNavDropdown {
+        .navbar-nav {
+          .dropdown-menu {
+            background-color: nth($colores, 3);
+          }
+        }
+      }
+    }
+  }
+}

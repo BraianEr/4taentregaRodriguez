@@ -1,0 +1,24 @@
+.body-404 {
+  .titulo-404 {
+    text-align: center;
+  }
+  .not-page {
+    text-align: center;
+  }
+  .cont-llanto {
+    margin: 0 auto;
+    width: 20rem;
+    text-align: center;
+    .llanto {
+      width: 100%;
+    }
+    .link-index {
+      text-align: center;
+      text-decoration: none;
+      color: nth($colores, 5);
+      &:hover {
+        color: nth($colores, 3);
+      }
+    }
+  }
+}

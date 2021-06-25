@@ -1,0 +1,19 @@
+/* Carousel */
+.carousel-inner {
+  .img-carousel {
+    height: 56rem;
+  }
+  .carousel-title {
+    font-size: map-get($textmaps, titulo2);
+    text-shadow: 0px 5px 10px nth($colores, 5);
+  }
+  .p-carousel {
+    font-size: 2rem;
+    text-shadow: 0px 5px 10px nth($colores, 5);
+  }
+  @media only screen and (max-width: 720px) {
+    .img-carousel {
+      height: 20rem;
+    }
+  }
+}

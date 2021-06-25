@@ -1,0 +1,24 @@
+@import '../base/font';
+/* Hipervinculos con mixin */
+.inicio-btn {
+  @include btnh ('Roboto,sans-serif', 2rem , center);
+  padding: 1rem;
+  .inicio{
+    @include hipervinculos (none,nth($colores,3), 8px ,1rem,nth($colores,5), map-get($textmaps,titulo4));
+    text-align: center;
+    box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.62);
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.62);
+    -moz-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.62);
+    /* Condicion para comprobar el else */
+    @include condicion(nth($colores,3));
+    @media (max-width:500px) {
+      @include hipervinculos (none,nth($colores,3), 8px ,1rem,nth($colores,5), map-get($textmaps,parrafo3));
+    text-align: center;
+    box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.62);
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.62);
+    -moz-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.62);
+    /* Condicion para comprobar el else */
+    @include condicion(nth($colores,3));
+    }
+  }
+}

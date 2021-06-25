@@ -1,0 +1,77 @@
+/* Secciones */
+.titulo-seccion {
+  font-family: "Roboto", sans-serif;
+  font-size: map-get($textmaps, titulo2);
+  letter-spacing: 2px;
+  word-spacing: 6px;
+  color: nth($colores, 5);
+  text-align: center;
+  padding: 2rem 0 5rem 0;
+  text-shadow: 0px 5px 10px nth($colores, 2);
+}
+.contenedor-secciones {
+  .contenedor-parrafo-secciones {
+    display: flex;
+    align-items: center;
+    .p-secciones {
+      font-family: "Roboto", sans-serif;
+      font-size: map-get($textmaps, parrafo1);
+      color: nth($colores, 5);
+      text-align: center;
+      .hipervinculo-ayuda {
+        font-style: italic;
+        color: nth($colores, 2);
+        text-decoration: none;
+        &:hover {
+          color: nth($colores, 4);
+        }
+      }
+    }
+  }
+}
+
+/* MEdia Secciones */
+@media only screen and (max-width: 993px) {
+  .titulo-seccion {
+    font-family: "Roboto", sans-serif;
+    font-size: map-get($textmaps, titulo4);
+    letter-spacing: 2px;
+    word-spacing: 6px;
+    color: nth($colores, 5);
+    text-align: center;
+    padding: 3rem 0;
+    text-shadow: 0px 5px 10px nth($colores, 2);
+  }
+  .contenedor-secciones {
+    .mock {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .contenedor-imagen-secciones {
+        display: flex;
+        justify-content: center;
+        img {
+          width: 15rem;
+        }
+      }
+      .contenedor-parrafo-secciones {
+        align-items: center;
+        .p-secciones {
+          font-family: "Roboto", sans-serif;
+          font-size: map-get($textmaps, parrafo2);
+          color: nth($colores, 5);
+          text-align: center;
+          padding: 2rem 0;
+          .hipervinculo-ayuda {
+            font-style: italic;
+            color: nth($colores, 2);
+            text-decoration: none;
+            &:hover {
+              color: nth($colores, 4);
+            }
+          }
+        }
+      }
+    }
+  }
+}

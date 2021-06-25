@@ -1,0 +1,18 @@
+/* animations */
+@keyframes animacion_1 {
+  0% {
+    color: nth($colores,1);
+  }
+  25% {
+    color: nth($colores, 2);
+  }
+
+  50% {
+    transform: translateY(3rem);
+    color: nth($colores, 3);
+  }
+
+  100% {
+    color: nth($colores, 1);
+  }
+}
