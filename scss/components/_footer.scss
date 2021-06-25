@@ -116,7 +116,7 @@
     background-color: nth($colores, 2);
     text-align: left;
     .contenedor-redes {
-      padding: 1rem;
+      padding-left: 1rem;
       .lista-redes {
         list-style: none;
         font-size: map-get($textmaps, parrafo3);
@@ -133,7 +133,7 @@
       }
     }
     .contenedor-legales {
-      padding: 1rem;
+      padding-left: 1rem;
       h2 {
         padding: 0rem;
       }

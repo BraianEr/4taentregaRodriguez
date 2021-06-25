@@ -529,7 +529,7 @@ header .bg-background #navbarNavDropdown .navbar-nav .dropdown-menu {
     text-align: left;
   }
   .footer .contenedor-redes {
-    padding: 1rem;
+    padding-left: 1rem;
   }
   .footer .contenedor-redes .lista-redes {
     list-style: none;
@@ -546,7 +546,7 @@ header .bg-background #navbarNavDropdown .navbar-nav .dropdown-menu {
     padding: 0;
   }
   .footer .contenedor-legales {
-    padding: 1rem;
+    padding-left: 1rem;
   }
   .footer .contenedor-legales h2 {
     padding: 0rem;
