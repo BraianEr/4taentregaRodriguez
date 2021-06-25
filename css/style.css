@@ -529,7 +529,7 @@ header .bg-background #navbarNavDropdown .navbar-nav .dropdown-menu {
     text-align: left;
   }
   .footer .contenedor-redes {
-    padding: 0;
+    padding: 1rem;
   }
   .footer .contenedor-redes .lista-redes {
     list-style: none;
@@ -546,7 +546,7 @@ header .bg-background #navbarNavDropdown .navbar-nav .dropdown-menu {
     padding: 0;
   }
   .footer .contenedor-legales {
-    padding: 0rem;
+    padding: 1rem;
   }
   .footer .contenedor-legales h2 {
     padding: 0rem;
@@ -734,23 +734,23 @@ header .bg-background #navbarNavDropdown .navbar-nav .dropdown-menu {
 .body-404 .titulo-404 {
   text-align: center;
 }
-.body-404 h2 {
+.body-404 .not-page {
   text-align: center;
 }
-.body-404 div {
+.body-404 .cont-llanto {
   margin: 0 auto;
   width: 20rem;
   text-align: center;
 }
-.body-404 div .llanto {
+.body-404 .cont-llanto .llanto {
   width: 100%;
 }
-.body-404 div .link-index {
+.body-404 .cont-llanto .link-index {
   text-align: center;
   text-decoration: none;
   color: #393e46;
 }
-.body-404 div .link-index:hover {
+.body-404 .cont-llanto .link-index:hover {
   color: #ffd369;
 }
 
