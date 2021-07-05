@@ -4,11 +4,10 @@
     color: nth($colores,1);
   }
   25% {
-    color: nth($colores, 2);
+    color: nth($colores, 3);
   }
 
   50% {
-    transform: translateY(3rem);
     color: nth($colores, 3);
   }
 
