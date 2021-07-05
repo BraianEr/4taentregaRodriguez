@@ -1,14 +1,13 @@
-
 @mixin condicion($colorif) {
-    color: $colorif;
+  color: $colorif;
 
-    @if $colorif == nth($colores, 5){
-        &:hover{
-            color: nth($colores, 3);
-        } 
-    } @else {
-        &:hover {
-            color: nth($colores, 1)
-        }
+  @if $colorif == nth($colores, 5) {
+    &:hover {
+      color: nth($colores, 3);
     }
+  } @else {
+    &:hover {
+      color: nth($colores, 1);
+    }
+  }
 }

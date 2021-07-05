@@ -1,14 +1,19 @@
 /* Mixin */
 @mixin btnh($font, $margin, $talign) {
-    font-family: $font;
-    margin: $margin;
-    text-align: $talign;
+  font-family: $font;
+  margin: $margin;
+  text-align: $talign;
 }
-@mixin hipervinculos ($td, $bg, $br, $padd,$color,$fs) {
-    text-decoration: $td;
-    background-color: $bg;
-    border-radius: $br;
-    padding: $padd;
-    color: $color;
-    font-size: $fs;
+@mixin hipervinculos($td, $bg, $br, $padd, $color, $fs) {
+  text-decoration: $td;
+  background-color: $bg;
+  border-radius: $br;
+  padding: $padd;
+  color: $color;
+  font-size: $fs;
+}
+@mixin shadow($nml, $webkit, $moz) {
+  box-shadow: $nml;
+  -webkit-box-shadow: $webkit;
+  -moz-box-shadow: $moz;
 }

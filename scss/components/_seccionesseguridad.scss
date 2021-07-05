@@ -48,12 +48,12 @@
   .contenedorsecciones-seguridad {
     .contenedor-gifnotificacions,
     .contenedor-gifrobo {
-        @extend %center;
-        margin-bottom: 2rem;
-        .notifications,
-        .robo {
-          width: 15rem;
-        }
+      @extend %center;
+      margin-bottom: 2rem;
+      .notifications,
+      .robo {
+        width: 15rem;
+      }
     }
     .contenedor-psecciones {
       width: 100%;

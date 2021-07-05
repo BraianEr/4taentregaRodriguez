@@ -29,7 +29,7 @@
     padding-bottom: 4rem;
   }
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
   .grid-tarjeta {
     .contener-items-tarjetas {
       flex-direction: column;
@@ -68,8 +68,8 @@
       padding: 0;
     }
   }
-} 
-@media (max-width: 400px){
+}
+@media (max-width: 400px) {
   .grid-tarjeta {
     .contener-items-tarjetas {
       flex-direction: column;
@@ -97,7 +97,7 @@
       }
     }
     .tarjetas-cuatro {
-      .tilde{
+      .tilde {
         display: none;
       }
       .descripcion-tarjeta {
@@ -112,4 +112,4 @@
       padding: 0;
     }
   }
-} 
+}

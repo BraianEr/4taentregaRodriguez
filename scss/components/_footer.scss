@@ -12,14 +12,14 @@
       list-style: none;
       font-size: map-get($textmaps, parrafo1);
       padding: 0;
-      i { 
+      i {
         /* Condicion */
-        @include condicion(nth($colores,5));
+        @include condicion(nth($colores, 5));
       }
       a {
         text-decoration: none;
         /* Condicion */
-        @include condicion(nth($colores,5));
+        @include condicion(nth($colores, 5));
       }
       .redessociales {
         padding: 0.5rem 0;
@@ -38,19 +38,19 @@
       a {
         text-decoration: none;
         /* Condicion */
-        @include condicion(nth($colores,5));
+        @include condicion(nth($colores, 5));
       }
     }
     .contenedor-imagenlegales {
       .imagen-legales {
         padding-left: 1rem;
-        width: $anchoimgleg;/* operaciones */
+        width: $anchoimgleg; /* operaciones */
       }
     }
   }
 }
 /* Media Footer */
-@media (max-width:960px) {
+@media (max-width: 960px) {
   .footer {
     width: 100%;
     padding: 0;
@@ -73,7 +73,7 @@
           }
         }
         .redessociales {
-          padding:  0;
+          padding: 0;
         }
       }
     }
@@ -84,7 +84,7 @@
       }
       .lista-legales {
         list-style: none;
-        font-size:map-get($textmaps, parrafo2);
+        font-size: map-get($textmaps, parrafo2);
         padding: 0rem;
         a {
           text-decoration: none;
@@ -103,7 +103,7 @@
     }
   }
 }
-@media only screen and (max-width:500px) {
+@media only screen and (max-width: 500px) {
   .footer {
     width: 100%;
     padding: 0;
@@ -125,7 +125,7 @@
           }
         }
         .redessociales {
-          padding:  0;
+          padding: 0;
         }
       }
     }
@@ -136,7 +136,7 @@
       }
       .lista-legales {
         list-style: none;
-        font-size:map-get($textmaps, parrafo3);
+        font-size: map-get($textmaps, parrafo3);
         padding: 0rem;
         a {
           text-decoration: none;
