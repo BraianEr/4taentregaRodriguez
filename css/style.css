@@ -368,7 +368,7 @@ header .bg-background #navbarNavDropdown .navbar-nav .dropdown-menu {
 }
 .inicio-btn .inicio {
   text-decoration: none;
-  background-color: #ffd369;
+  background-color: #393e46;
   border-radius: 8px;
   padding: 1rem;
   color: #393e46;
@@ -378,7 +378,7 @@ header .bg-background #navbarNavDropdown .navbar-nav .dropdown-menu {
   -webkit-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.62);
   -moz-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.62);
   /* Condicion para comprobar el else */
-  background-color: #ffd369;
+  color: #ffd369;
 }
 .inicio-btn .inicio:hover {
   color: #FFFFFF;
@@ -386,7 +386,7 @@ header .bg-background #navbarNavDropdown .navbar-nav .dropdown-menu {
 @media (max-width: 500px) {
   .inicio-btn .inicio {
     text-decoration: none;
-    background-color: #ffd369;
+    background-color: #393e46;
     border-radius: 8px;
     padding: 1rem;
     color: #393e46;
@@ -396,7 +396,7 @@ header .bg-background #navbarNavDropdown .navbar-nav .dropdown-menu {
     -webkit-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.62);
     -moz-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.62);
     /* Condicion para comprobar el else */
-    background-color: #ffd369;
+    color: #ffd369;
   }
   .inicio-btn .inicio:hover {
     color: #FFFFFF;
@@ -410,7 +410,7 @@ header .bg-background #navbarNavDropdown .navbar-nav .dropdown-menu {
   margin: 0;
   display: flex;
   justify-content: space-around;
-  background-color: #f7d8b4;
+  background-color: #FFFFFF;
 }
 .footer .contenedor-redes {
   padding: 1rem;
@@ -422,19 +422,18 @@ header .bg-background #navbarNavDropdown .navbar-nav .dropdown-menu {
 }
 .footer .contenedor-redes .lista-redes i {
   /* Condicion */
-  background-color: #f7d8b4;
+  color: #393e46;
 }
 .footer .contenedor-redes .lista-redes i:hover {
-  color: #FFFFFF;
+  color: #ffd369;
 }
 .footer .contenedor-redes .lista-redes a {
   text-decoration: none;
-  color: #393e46;
   /* Condicion */
-  background-color: #f7d8b4;
+  color: #393e46;
 }
 .footer .contenedor-redes .lista-redes a:hover {
-  color: #FFFFFF;
+  color: #ffd369;
 }
 .footer .contenedor-redes .lista-redes .redessociales {
   padding: 0.5rem 0;
@@ -452,10 +451,11 @@ header .bg-background #navbarNavDropdown .navbar-nav .dropdown-menu {
 }
 .footer .contenedor-legales .lista-legales a {
   text-decoration: none;
+  /* Condicion */
   color: #393e46;
 }
 .footer .contenedor-legales .lista-legales a:hover {
-  color: #FFFFFF;
+  color: #ffd369;
 }
 .footer .contenedor-legales .contenedor-imagenlegales .imagen-legales {
   padding-left: 1rem;

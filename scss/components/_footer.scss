@@ -5,7 +5,7 @@
   margin: 0;
   display: flex;
   justify-content: space-around;
-  background-color: nth($colores, 2);
+  background-color: nth($colores, 1);
   .contenedor-redes {
     padding: 1rem;
     .lista-redes {
@@ -14,13 +14,12 @@
       padding: 0;
       i { 
         /* Condicion */
-        @include condicion(nth($colores,2));
+        @include condicion(nth($colores,5));
       }
       a {
         text-decoration: none;
-        color: nth($colores, 5);
         /* Condicion */
-        @include condicion(nth($colores,2));
+        @include condicion(nth($colores,5));
       }
       .redessociales {
         padding: 0.5rem 0;
@@ -38,10 +37,8 @@
       padding: 0 1rem;
       a {
         text-decoration: none;
-        color: nth($colores, 5);
-        &:hover {
-          color: nth($colores, 1);
-        }
+        /* Condicion */
+        @include condicion(nth($colores,5));
       }
     }
     .contenedor-imagenlegales {
