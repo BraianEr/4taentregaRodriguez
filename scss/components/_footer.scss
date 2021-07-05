@@ -57,7 +57,7 @@
     margin: 0;
     display: flex;
     justify-content: space-around;
-    background-color: nth($colores, 2);
+    background-color: nth($colores, 1);
     text-align: left;
     .contenedor-redes {
       padding: 1rem;
@@ -110,7 +110,7 @@
     margin: 0;
     display: flex;
     justify-content: space-around;
-    background-color: nth($colores, 2);
+    background-color: nth($colores, 1);
     text-align: left;
     .contenedor-redes {
       padding-left: 1rem;
