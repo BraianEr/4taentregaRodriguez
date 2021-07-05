@@ -2,6 +2,7 @@
 <h3 align="center">A passionate web developer from Argentina</h3>
 
 - 🔭 I’m currently working on [ProyectoFinal Coderhouse](https://github.com/BraianEr/4taentregaRodriguez.git)
+- you have to type npm instal before you open this file,
 
 - 🌱 I’m currently learning **JavaScript**
 
