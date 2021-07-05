@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BraianEr/ItBank.git"
+    "url": "git+https://github.com/BraianEr/4taentregaRodriguez.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/BraianEr/ItBank/issues"
+    "url": "https://github.com/BraianEr/4taentregaRodriguez/issues"
   },
-  "homepage": "https://github.com/BraianEr/ItBank#readme",
+  "homepage": "https://github.com/BraianEr/4taentregaRodriguez#readme",
   "devDependencies": {
     "node-sass": "^6.0.1",
     "nodemon": "^2.0.9"
