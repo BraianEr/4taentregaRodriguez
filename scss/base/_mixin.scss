@@ -17,3 +17,6 @@
   -webkit-box-shadow: $webkit;
   -moz-box-shadow: $moz;
 }
+@mixin textshadow($txsdw) {
+    text-shadow: $txsdw;
+}

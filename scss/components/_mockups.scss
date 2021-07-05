@@ -7,7 +7,7 @@
   color: nth($colores, 5);
   text-align: center;
   padding: 2rem 0 5rem 0;
-  text-shadow: 0px 5px 10px nth($colores, 2);
+  @include textshadow(0px 5px 10px nth($colores, 3));
 }
 .contenedor-secciones {
   .contenedor-parrafo-secciones {
@@ -40,7 +40,7 @@
     color: nth($colores, 5);
     text-align: center;
     padding: 3rem 0;
-    text-shadow: 0px 5px 10px nth($colores, 2);
+    @include textshadow(0px 5px 10px nth($colores, 3));
   }
   .contenedor-secciones {
     .mock {
