@@ -1,7 +1,8 @@
 /* Carousel */
 .carousel-inner {
+  height: 50rem;
   .img-carousel {
-    height: 49rem;
+    height: 50rem;
   }
   .carousel-title {
     font-size: map-get($textmaps, titulo2);

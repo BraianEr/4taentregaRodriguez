@@ -68,8 +68,11 @@ header .flecha .img-flecha:hover {
   }
 }
 /* Carousel */
+.carousel-inner {
+  height: 50rem;
+}
 .carousel-inner .img-carousel {
-  height: 49rem;
+  height: 50rem;
 }
 .carousel-inner .carousel-title {
   font-size: 4rem;
