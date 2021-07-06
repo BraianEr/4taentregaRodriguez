@@ -4,7 +4,7 @@
   padding: 0;
   margin: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: nth($colores, 1);
   .contenedor-redes {
     padding: 1rem;
@@ -44,7 +44,7 @@
     .contenedor-imagenlegales {
       .imagen-legales {
         padding-left: 1rem;
-        width: $anchoimgleg; /* operaciones */
+        width: 35rem; /* operaciones */
       }
     }
   }
@@ -97,7 +97,7 @@
       .contenedor-imagenlegales {
         .imagen-legales {
           padding-left: 0rem;
-          width: $anchoimgleg/1.5; /* operaciones */
+          width: 20rem; /* operaciones */
         }
       }
     }
@@ -149,7 +149,7 @@
       .contenedor-imagenlegales {
         .imagen-legales {
           padding-left: 0rem;
-          width: $anchoimgleg/1.9; /* operaciones */
+          width: 15rem; /* operaciones */
         }
       }
     }
