@@ -82,7 +82,11 @@ header .flecha .img-flecha:hover {
   font-size: 2rem;
   text-shadow: 0px 5px 10px #393e46;
 }
+
 @media only screen and (max-width: 720px) {
+  .carousel-inner {
+    height: 20rem;
+  }
   .carousel-inner .img-carousel {
     height: 20rem;
   }
@@ -95,7 +99,6 @@ header .flecha .img-flecha:hover {
     text-shadow: 0px 5px 10px #393e46;
   }
 }
-
 /* animations */
 @keyframes animacion_1 {
   0% {

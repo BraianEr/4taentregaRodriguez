@@ -11,19 +11,22 @@
   .p-carousel {
     font-size: 2rem;
     @include textshadow(0px 5px 10px nth($colores, 5));
-
   }
+}
   @media only screen and (max-width: 720px) {
-    .img-carousel {
+    .carousel-inner {
       height: 20rem;
+      .img-carousel {
+        height: 20rem;
+      }
+      .carousel-title {
+        font-size: map-get($textmaps, titulo4);
+        @include textshadow(0px 5px 10px nth($colores, 5));
+      }
+      .p-carousel {
+        font-size: map-get($textmaps, parrafo3);
+        @include textshadow(0px 5px 10px nth($colores, 5));
+      }
     }
-    .carousel-title {
-      font-size: map-get($textmaps, titulo4);
-      @include textshadow(0px 5px 10px nth($colores, 5));
-    }
-    .p-carousel {
-      font-size: map-get($textmaps, parrafo3);
-      @include textshadow(0px 5px 10px nth($colores, 5));
   }
-}
-}
+
