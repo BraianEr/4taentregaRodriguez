@@ -69,10 +69,10 @@ header .flecha .img-flecha:hover {
 }
 /* Carousel */
 .carousel-inner {
-  height: 50rem;
+  height: 49rem;
 }
 .carousel-inner .img-carousel {
-  height: 50rem;
+  height: 49rem;
 }
 .carousel-inner .carousel-title {
   font-size: 4rem;
